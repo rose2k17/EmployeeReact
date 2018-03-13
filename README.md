@@ -9,7 +9,8 @@
   ```
   npm install -g yarn
   ```
-   3.  Seguir las instrucciones de React Native en <a href="https://facebook.github.io/react-native/docs/getting-   started.html">getting started</a>, la opción <b>Building Projects with Native Code</b>
+   3.  Seguir las instrucciones de React Native en <a href="https://facebook.github.io/react-native/docs/getting-   started.html">getting started</a>, la opción <b>Building Projects with Native Code</b> para la instalación.
+   AVISO: antes de hacer el comando <b>react-native run-android o ios</b>, hay que tener el VD operativo.
    
 ## Solución a algunos errores
 
@@ -19,7 +20,10 @@ En el tutorial hay un error en: <b>import {Navigator, Text, TouchableOpacity, Im
   npm install react-native-deprecated-custom-components
   ```
   - Añadir este: <b>import { Navigator } from 'react-native-deprecated-custom-components';</b> y eliminar "Navigator" del otro  import.
+### Problemas con las variables de entorno
 
+Poner el adb en Path, el adb está en el directorio de instalación (ruta)/Sdk/platform-tools
+ 
 ### Problemas al sacar el Virtual Device
 
 - Si es un problema con el procesador AMD: 
