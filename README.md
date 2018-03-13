@@ -33,5 +33,6 @@ Poner el adb en Path, el adb está en el directorio de instalación (ruta)/Sdk/p
   Con Genymotion (instalado):
     1. Ir a Android Studio en <b>File > Settings</b>.
     2. Seleccionar Plugins,  y click en <b>Browse Repositories</b>, buscar el plugin <b>Genymotion</b> e instalarlo.
-    3. Despues de reiniciar Android Studio, en <b>Settings > Other Settings > Genymotion</b> añadir  la ruta de donde se encuentra el directorio de instalación de Genymotion.
+    3. Despues de reiniciar Android Studio, en <b>Settings > Other Settings > Genymotion</b> añadir  la ruta: C:\Program
+Files\Genymobile\Genymotion.
     3. Desplegar el Toolbar en <b>View > Toolbar</b>.
